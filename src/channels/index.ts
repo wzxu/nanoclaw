@@ -9,8 +9,8 @@
 // CLI — always-on local-terminal channel
 import './cli.js';
 
-// Discord
-import './discord.js';
+// Discord — add via /add-discord skill
+// import './discord.js';
 
 // Gmail
 // import './gmail.js';
