@@ -1,13 +1,25 @@
-// Channel self-registration barrel file.
-// Each import triggers the channel module's registerChannel() call.
+// Channel self-registration barrel.
+// Each import triggers the channel module's registerChannelAdapter() call.
+//
+// Main ships with one default channel — `cli`, the always-on local-terminal
+// channel. Other channel skills (/add-slack, /add-discord, /add-whatsapp,
+// ...) copy their module from the `channels` branch and append a
+// self-registration import below.
 
-// discord
+// CLI — always-on local-terminal channel
+import './cli.js';
+
+// Discord
 import './discord.js';
 
-// gmail
+// Gmail
+// import './gmail.js';
 
-// slack
+// Slack
+// import './slack.js';
 
-// telegram
+// Telegram
+// import './telegram.js';
 
-// whatsapp
+// WhatsApp
+// import './whatsapp.js';
