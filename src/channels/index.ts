@@ -10,7 +10,7 @@
 import './cli.js';
 
 // Discord — add via /add-discord skill
-// import './discord.js';
+import './discord.js';
 
 // Gmail
 // import './gmail.js';
